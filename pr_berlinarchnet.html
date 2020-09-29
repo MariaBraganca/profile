@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="_css/style.css">
 	</head>
 	<body>
-		<!-- Navbar  -->
+	<!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
       <a class="navbar-brand font-weight-bold" href="index.html">MB</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,16 +119,52 @@
 				</div>	
 			</div>
 			<!-- Challenges and Thought process -->
-			<div class="row my-5" id="ban-stack">
-				<div class="col-12 mt-5 text-center mb-3">
+			<div class="row my-5" id="ban-images">
+				<div class="col-12 mt-5 text-center mb-5">
 					<h2>Challenges and solving process</h2>
 				</div>
-				<div class="col-12 text-center ">
-					<p>Problem 1</p>
-					<p>Problem 2</p>
-					<p>Problem 3</p>
-				</div>	
+				<!-- Database -->
+				<div class="col-12 col-lg-8 mb-5">
+					<img src="_images/ban-db.JPG" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				</div>
+				<div class="col-12 col-lg-4">
+					<h3 class="mb-3">Database Architecture</h3>
+					<p>The database was a higlight of this project because of its complexity.</p>
+					<p>There is a total of 12 models. Users, events, offices and chatrooms are the core ones.</p>
+					<p>Something unusual about this schema is the comments table that allows foreign keys to be set to null. This decision was made in order to reduce the number of tables. Even though it works, this is something i would rather keep separate in the future for the sake of simplicity.</p>
+					<p>It was however an opportunity to try and see a different solution in action.</p>
+				</div>
+				<!-- Web Design -->
+				<div class="col-12 col-lg-4 my-5">
+					<h3 class="mb-3">Web Design</h3>
+					<p>While testing for the demo day one of the main critics to our project was the fact that the all pages looked the same, even though the topics were different.</p>
+					<p>After some brainstorming, i understood that it's the user flow that sets the tone for each page and defines how content is grouped.</p>
+					<p>We used the Bootstrap library for layouting, custom hover animations as well as modals to gratulate the user and zoom in on images.</p>
+					<p>The result was a consistent design throughout the app, that allowed at the same time a unique look to each page.</p>
+				</div>
+				<div class="col-12 col-lg-4 my-5">
+					<img src="_images/ban-office-show.png" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				</div>
+				<div class="col-12 col-lg-4 my-auto">
+					<img src="_images/ban-user-dashboard.png" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Dashboard">
+					<img src="_images/ban-chat.JPG" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Chat">
+				</div>
+				<!-- Agile Thinking -->
+				<div class="col-12 col-lg-8">
+					<h3 class="mb-3">Agile Thinking</h3>
+					<p>Throughout my professional experience, as an architect, i’ve explored the benefits of agile management on building design.</p>
+				</div>
+				<div class="col-12 mb-5">
+					<img src="_images/ban-trello.png" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				</div>
+
 			</div>
 		</div>
+		<!-- Footer  -->
+		<footer></footer>
+		<!-- Bootstrap  -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
