@@ -1,9 +1,13 @@
 body {
     padding-top: 100px;
 }
+p {
+    opacity: 80%;
+}
 ul {
     padding-left: 0;
 }
 ul  li {
     list-style-type: none;
+    opacity: 80%;
 }
