@@ -40,15 +40,18 @@
 					<h1 class="font-weight-bold">Berlin Architectural Network</h1>
 				</div>
 				<div class="col-12 col-lg-9">
-					<p>Berlin Architectural Network is a Ruby on Rails Application built for the homonymous Meetup group, which i've started in 2017.</p>
-          <p>Together with my team, we've built this app from scratch with Ruby, HTML, SCSS and JavaScript.</p>
-					<p>Building a social platform in two weeks, required a good understanding of data base architecture, overall enjoyable user experience as well as skills on time and product management.</p>
-					<a href="https://berlinarchnet.herokuapp.com/" title="Link to BAN on Heroku" target="_blank">View Live</a>
+					<p>Berlin Architectural Network is a Ruby on Rails Application built for the homonymous <a href="https://www.meetup.com/BAN-Berlin-Architectural-Network/" title="Link to BAN Meetup group">Meetup group</a>, which I've created in 2017. Since then, it has attracted hundreds of architecture lovers who come together to support each other through collaboration and networked learning.</p>
+          <p>Together with my team from the Bootcamp at Le Wagon, we've built this web application from scratch with Ruby, HTML, SCSS and JavaScript.</p>
+					<p>Building a social platform as the final project in only 2 week's time, required a good understanding of data base architecture, overall enjoyable user experience as well as skills on time and product management.</p>
+					<a href="https://berlinarchnet.herokuapp.com/" class="btn btn-primary" title="Link to BAN on Heroku" target="_blank">View Live</a>
+				</div>
+				<div class="col-12 col-lg-3">
+					<img src="_images/ban-logo.png" class="img-fluid w-100" alt="">
 				</div>
 			</div>
 			<!-- Labels -->
 			<div class="row my-5" id="ban-labels">
-				<div class="col-12 col-lg-3 mb-3">
+				<div class="col-12 col-lg-3">
 					<h6>Role</h6>
 					<ul>
 						<li>Le Wagon Alumni</li>
@@ -56,7 +59,7 @@
 					</ul>
 					<p></p>
 				</div>
-				<div class="col-12 col-lg-3 mb-3">
+				<div class="col-12 col-lg-3">
 					<h6>Team</h6>
 					<ul>
 						<li>Hristian Bozinoski</li>
@@ -64,44 +67,61 @@
 						<li>Zeljka Vujic</li>
 					</ul>
 				</div>
-				<div class="col-12 col-lg-3 mb-3">
+				<div class="col-12 col-lg-3">
 					<h6>Stack</h6>
 					<ul>
-						<li>Trello</li>
-						<li>Figma</li>
 						<li>Github</li>
 						<li>Ruby on Rails</li>
 						<li>Postgresql</li>
 						<li>Heroku</li>
 					</ul>
 				</div>
-				<div class="col-12 col-lg-3 mb-3">
-					<h6>Gems</h6>
+				<div class="col-12 col-lg-3">
+					<h6>Libraries</h6>
 					<ul>
 						<li>Devise (authentication)</li>
 						<li>Pundit (authorization)</li>
+						<li>Cloudinary</li>
 						<li>Geocoding with Mapbox</li>
 						<li>PG Search</li>
+						<li>Bootstrap</li>
 						<li>AJAX in Rails</li>
 						<li>Websocket and Action Cable</li>
 					</ul>
 				</div>
 			</div>
-			<!-- Screenshot -->
-			<div class="shadow-sm p-5 mb-5 bg-light rounded"></div>
 			<!-- Goal -->
 			<div class="row my-5" id="ban-goal">
-				<div class="col-12 mt-5 mb-3">
-					<h2>Goal</h2>
+				<div class="col-12 mb-3">
+					<h2>Goal and Process</h2>
 				</div>
 				<div class="col-12 col-lg-6">
-					<p>This web application was developed as the final project of the Bootcamp at Le Wagon. After describing each step of the user journey and defining the app core features, we designed the database schema and built the corresponding models and respective relationships on Rails.</p>
-					<p><span class="font-weight-bold">Phase 1</span> enabled the user to become a member of the community by signing in to the network.</p>
-					<p><span class="font-weight-bold">Phase 2</span> allowed the user to visit an office's page and check out a member's activity related to that office.</p> 
-					<p><span class="font-weight-bold">Phase 3</span> gave the user the possibitlity to RSVP to an event, review it and finally chat with a member about his experience.</p>
+					<p>The purpose of this project is to support architects, who are new Berlin, on getting into the city's architecture scene and give the <a href="https://www.meetup.com/BAN-Berlin-Architectural-Network/" title="Link to BAN Meetup group">Meetup group</a> an online presence. The design process had 3 major phases:</p>
 				</div>
+			</div>
+			<!-- Screenshots -->
+			<div class="row my-5" id="ban-screenshots">
 				<div class="col-12 col-lg-6">
-					<div class="shadow-sm h-100 mb-3 bg-light rounded"></div>
+					<img src="_images/ban-office-show.png" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				</div>
+				<div class="col-12 col-lg-6 my-auto">
+					<img src="_images/ban-user-dashboard.png" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Dashboard">
+					<img src="_images/ban-chat.JPG" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Chat">
+				</div>
+			</div>
+			<!-- Process -->
+			<div class="row my-5" id="ban-process">
+				<div class="col-12 col-lg-4">
+					<h6>Phase 1 - Sign up</h6> 
+					<p>After defining each step of the user journey along with a Figma prototype, we designed the database schema and built the corresponding models on Rails. At this point we introduced <span class="font-italic">Devise</span> for authentication and <span class="font-italic">Pundit</span> for authorization, so that the user could sign up and become a member of the community. </p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<h6>Phase 2 - Browse</h6>
+					<p>On the second phase the user should be able to visit an office's page and check out a member's activity. For the database seeding, we used the <span class="font-italic">JSON format</span> due to it fast execution. We also worked with services such as <span class="font-italic">Cloudinary</span> to host and upload images and <span class="font-italic">Mapbox</span> to display the location of the offices. </p> 
+				</div>
+				<div class="col-12 col-lg-4">
+					<h6>Phase 3 - Interact</h6>
+					<p>The last phase enabled the user to RSVP to an event, review it and chat with a member. <span class="font-italic">AJAX</span> was used for rspving and posting comments, which allowed new content to be displayed without refreshing. For the chat, we've built a bidirectional <span class="font-italic">Websocket</span> connection combined with <span class="font-italic">Action Cable</span> for real-time messaging.</p>
 				</div>
 			</div>
 			<!-- Web Stack -->
@@ -121,12 +141,17 @@
 			</div>
 			<!-- Challenges and Thought process -->
 			<div class="row my-5" id="ban-images">
-				<div class="col-12 mt-5 text-center mb-5">
+				<div class="col-12 mt-5 text-center mb-3">
 					<h2>Challenges and solving process</h2>
 				</div>
-				<!-- Database -->
-				<div class="col-12 col-lg-8 mb-5">
-					<img src="_images/ban-db.JPG" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				<div class="col-12 text-center">
+					<p>The process was not always smooth and we had some bumps on the way that helped us grow as junior developers.</p>
+				</div>
+			</div>
+			<!-- Database -->
+			<div class="row my-5" id="ban-database">
+				<div class="col-12 col-lg-8">
+					<img src="_images/ban-db.JPG" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Database">
 				</div>
 				<div class="col-12 col-lg-4">
 					<h3 class="mb-3">Database Architecture</h3>
@@ -134,31 +159,28 @@
 					<p>Something unusual about this schema is the comments table that allows foreign keys to be nullified. This decision was made in order to reduce the number of tables. Even though this is valid and works, it's something i would rather break into smaller tables in the future, for the sake of simplicity.</p>
 					<p>It was nonetheless an opportunity to try and see a different solution on action.</p>
 				</div>
-				<!-- Web Design -->
-				<div class="col-12 col-lg-4 my-5">
-					<h3 class="mb-3">Web Design</h3>
-					<p>One of the critics, while rehearsing for the demo day, was the fact that the all the show pages in our app looked alike, even though the content type was different.</p>
-					<p>I've learnt that, the user flow defines how content is grouped and displayed within a web page. We've worked with the Bootstrap grid for the layout in contrast to custom hover animations, in order to provide an enjoyable user experience.</p>
-					<p>The goal was to create a consistent design throughout the app, that allowed at the same time each page to stand out on its own.</p>
+			</div>
+			<!-- Github -->
+			<div class="row my-5" id="ban-github">
+				<div class="col-12 col-lg-4">
+					<h3 class="mb-3">Teamwork on Github</h3>
+					<p>By working on someone else's feature, i've caused conflicts on github, which had to be reviewed line by line and took us time. After that we've started to practice pair programming.</p>
+					<p>A versioning issue would not allow me to push my code to the repository, so I've also learned how to remove empty files and fix the head manually on gibhub on the night prior to the demo!</p>
 				</div>
-				<div class="col-12 col-lg-4 my-5">
-					<img src="_images/ban-office-show.png" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				<div class="col-12 col-lg-8">
+					<img src="_images/ban-graph.png" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Database">
 				</div>
-				<div class="col-12 col-lg-4 my-auto">
-					<img src="_images/ban-user-dashboard.png" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Dashboard">
-					<img src="_images/ban-chat.JPG" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Chat">
+			</div>
+			<!-- Agile Thinking -->
+			<div class="row my-5" id="ban-agile">
+				<div class="col-12 col-lg-8">
+					<img src="_images/ban-trello-s.JPG" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Database">
 				</div>
-				<!-- Agile Thinking -->
-				<div class="col-12 col-lg-8 mb-3">
+				<div class="col-12 col-lg-4">
 					<h3 class="mb-3">Agile Mindset</h3>
-					<p>Throughout my professional experience, as an architect, i’ve explored the benefits of agile management on building design. This proved to be very useful throughout the process of building this app.</p>
-					<p>Despite the short timeline of 2 weeks, we were able to put the project up and running for the demo day and had time to work on extra features. That's because we've implemented scrum rituals, such as standups, and kept a clean kanban board on trello, which helped us visualize our progress and workflow as a team.</p>
-					<p>I've realized that having a clear understanding of each feature and its priorities while building a minimum viable product, plays a determinant role on the team's productivity and efficiency.</p>
+					<p>As an architect, i've explored the benefits of agile management while coordinating small teams. This experience guided me throughout the process of building this app.</p>
+					<p>We've implemented scrum rituals such as daily standups as well as a kanban board on trello, which helped us visualize our progress and workflow as a team. Despite the timeline of 2 weeks, we were able to put the project up and running for the demo and still had time to work on one extra feature. </p>
 				</div>
-				<div class="col-12 mb-5">
-					<img src="_images/ban-trello.png" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
-				</div>
-
 			</div>
 		</div>
 		<!-- Footer  -->
