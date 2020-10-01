@@ -1,13 +1,23 @@
 body {
     padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
 }
 p {
-    opacity: 80%;
+    opacity: 85%;
 }
 ul {
     padding-left: 0;
 }
 ul  li {
     list-style-type: none;
-    opacity: 80%;
+    opacity: 85%;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
 }
