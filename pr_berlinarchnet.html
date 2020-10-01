@@ -113,15 +113,15 @@
 			<div class="row my-5" id="ban-process">
 				<div class="col-12 col-lg-4">
 					<h6>Phase 1 - Sign up</h6> 
-					<p>After defining each step of the user journey and the app's core features along with a Figma prototype, we designed the database schema and built the corresponding models on Rails. At this point we introduced devise for authentication and pundit for authorization, so that the user could sign up and become a member of the community. </p>
+					<p>After defining each step of the user journey along with a Figma prototype, we designed the database schema and built the corresponding models on Rails. At this point we introduced <span class="font-italic">Devise</span> for authentication and <span class="font-italic">Pundit</span> for authorization, so that the user could sign up and become a member of the community. </p>
 				</div>
 				<div class="col-12 col-lg-4">
 					<h6>Phase 2 - Browse</h6>
-					<p>On the second phase the user should be able to visit an office's page and check out a member's activity related to that office. For the database seeding, we used the JSON format due to it fast execution and versatility. We also worked with services such as Cloudinary to host and upload images and Mapbox to display the location of the offices. </p> 
+					<p>On the second phase the user should be able to visit an office's page and check out a member's activity. For the database seeding, we used the <span class="font-italic">JSON format</span> due to it fast execution. We also worked with services such as <span class="font-italic">Cloudinary</span> to host and upload images and <span class="font-italic">Mapbox</span> to display the location of the offices. </p> 
 				</div>
 				<div class="col-12 col-lg-4">
 					<h6>Phase 3 - Interact</h6>
-					<p>The last phase allowed the user to RSVP to an event, review it and finally chat with a member about his experience. AJAX was used for rspving and posting comments, which allowed new content to be displayed without refreshing. For the chat, we've built a bidirectional Websocket connection in combination with Action Cable for real-time messaging.</p>
+					<p>The last phase enabled the user to RSVP to an event, review it and chat with a member. <span class="font-italic">AJAX</span> was used for rspving and posting comments, which allowed new content to be displayed without refreshing. For the chat, we've built a bidirectional <span class="font-italic">Websocket</span> connection combined with <span class="font-italic">Action Cable</span> for real-time messaging.</p>
 				</div>
 			</div>
 			<!-- Web Stack -->
@@ -144,14 +144,14 @@
 				<div class="col-12 mt-5 text-center mb-3">
 					<h2>Challenges and solving process</h2>
 				</div>
-				<div class="col-12 col-lg-8 mx-auto">
+				<div class="col-12 text-center">
 					<p>The process was not always smooth and we had some bumps on the way that helped us grow as junior developers.</p>
 				</div>
 			</div>
 			<!-- Database -->
 			<div class="row my-5" id="ban-database">
 				<div class="col-12 col-lg-8">
-					<img src="_images/ban-db.JPG" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+					<img src="_images/ban-db.JPG" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Database">
 				</div>
 				<div class="col-12 col-lg-4">
 					<h3 class="mb-3">Database Architecture</h3>
@@ -162,25 +162,24 @@
 			</div>
 			<!-- Github -->
 			<div class="row my-5" id="ban-github">
-				<div class="col-12 col-lg-6">
+				<div class="col-12 col-lg-4">
 					<h3 class="mb-3">Teamwork on Github</h3>
-					<p>Commands such as add, commit, push and pull became second nature. We also got better at writing commit messages and naming our branches properly so that others could understand it.</p>
-					<p>After working on someone else's feature and causing a lot conflicts, which had to be reviewed line by line on github, I understood that pair programming would have been the right solution to my problem.</p>
+					<p>By working on someone else's feature, i've caused conflicts on github, which had to be reviewed line by line and took us time. After that we've started to practice pair programming.</p>
+					<p>A versioning issue would not allow me to push my code to the repository, so I've also learned how to remove empty files and fix the head manually on gibhub on the night prior to the demo!</p>
 				</div>
-				<div class="col-12 col-lg-6">
-					<div class="shadow-sm h-100 mb-3 bg-light rounded"></div>
+				<div class="col-12 col-lg-8">
+					<img src="_images/ban-graph.png" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Database">
 				</div>
 			</div>
 			<!-- Agile Thinking -->
 			<div class="row my-5" id="ban-agile">
 				<div class="col-12 col-lg-8">
-					<h3 class="mb-3">Agile Mindset</h3>
-					<p>Throughout my professional experience, as an architect, i’ve explored the benefits of agile management on building design. My previous experience on coordinating small teams guided me throughout the process of building this app.</p>
-					<p>Despite the short timeline of 2 weeks, we were able to put the project up and running for the demo day and had time to work on extra features. Only because we've implemented scrum rituals, such as standups, and kept a clean kanban board on trello, which helped us visualize our progress and workflow as a team.</p>
-					<p>I've realized that having a clear understanding of each feature and its priorities, played a determinant role on the team's productivity and efficiency.</p>
+					<img src="_images/ban-trello-s.JPG" class="img-fluid w-100 shadow-sm rounded mb-5" alt="Image of BAN Database">
 				</div>
-				<div class="col-12 mb-5">
-					<img src="_images/ban-trello.png" class="img-fluid w-100 shadow-sm rounded" alt="Image of BAN Database">
+				<div class="col-12 col-lg-4">
+					<h3 class="mb-3">Agile Mindset</h3>
+					<p>As an architect, i've explored the benefits of agile management while coordinating small teams. This experience guided me throughout the process of building this app.</p>
+					<p>We've implemented scrum rituals such as daily standups as well as a kanban board on trello, which helped us visualize our progress and workflow as a team. Despite the timeline of 2 weeks, we were able to put the project up and running for the demo and still had time to work on one extra feature. </p>
 				</div>
 			</div>
 		</div>
