@@ -34,7 +34,7 @@
 		<!-- Content  -->
 		<div class="container mx-auto min-vh-100">
 			<!-- Summary -->
-			<div class="row">
+			<div class="row" id="cocktail-summary">
 				<div class="col-12 mb-3">
 					<h1 class="font-weight-bold">Mister Cocktail</h1>
 				</div>
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 			<!-- Labels -->
-			<div class="row my-5" id="ban-labels">
+			<div class="row my-5" id="cocktail-labels">
 				<div class="col-12 col-lg-3 mb-3">
 					<h6>Role</h6>
 					<ul>
@@ -79,21 +79,20 @@
 			<!-- Homepage -->
 			<div class="row">
 				<div class="col-12">
-					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601828728/profile/cocktail-homepage.jpg" class="img-fluid w-100 shadow rounded" alt="Image of BAN Homepage">
+					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601828728/profile/cocktail-homepage.jpg" class="img-fluid w-100 shadow rounded" alt="Image of Cocktail's Homepage">
 				</div>
 			</div>
 			<!-- Goal -->
-			<div class="row mt-5 mb-3" id="ban-goal">
+			<div class="row mt-5 mb-3" id="cocktail-goal">
 				<div class="col-12 mb-3">
 					<h2>Goal and Process</h2>
 				</div>
 				<div class="col-12 col-lg-8">
-					<p>The purpose of this project is to allow users to search, filter and create their own cocktails.</p>
-					<p>The design process had 3 major phases:</p>
+					<p>The purpose of this project is to allow users to search, filter and create their own cocktails.<br>The design process had 3 major phases:</p>
 				</div>
 			</div>
 			<!-- Process -->
-			<div class="row mb-5" id="ban-process">
+			<div class="row mb-5" id="cocktail-process">
 				<div class="col-12 col-lg-4">
 					<h6>Phase 1 - Search</h6> 
 					<p>For the database seeding, i parsed data from the test API key avaliable at <a href="https://www.thecocktaildb.com/api.php">the cocktail db</a>. Futhermore, i used PG Search to allow the user to search for a specific cocktail or ingredient.</p>
@@ -104,48 +103,43 @@
 				</div>
 				<div class="col-12 col-lg-4">
 					<h6>Phase 3 - Create</h6>
-					<p>CRUD methods were implemented on the cocktail's and dose's controllers.	</p>
+					<p>CRUD methods were implemented on the cocktail's and dose's controllers for user interaction. Regarding the hosting and uploading of images, i used the Cloudinary platform.</p>
 				</div>
 			</div>
-			<!-- Show -->
+			<!-- Images -->
 			<div class="row">
 				<div class="col-12">
-					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601844084/profile/cocktail-show.jpg" class="img-fluid w-100 shadow rounded" alt="Image of BAN Homepage">
+					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601844084/profile/cocktail-show.jpg" class="img-fluid w-100 shadow rounded mb-3" alt="Image of Cocktail show page">
+				</div>
+				<div class="col-12 col-lg-6">
+					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601844084/profile/cocktail-filter.jpg" class="img-fluid w-100 shadow rounded mb-3" alt="Image of Cocktail show page">
+				</div>
+				<div class="col-12 col-lg-6">
+					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601844084/profile/cocktail-edit.jpg" class="img-fluid w-100 shadow rounded mb-3" alt="Image of Cocktail show page">
 				</div>
 			</div>
 			<!-- Challenges and solutions-->
-			<div class="row my-5" id="ban-images">
+			<div class="row my-5" id="cocktail-challenges">
 				<div class="col-12 mt-5 text-center mb-5">
 					<h2>Challenges and solving process</h2>
 				</div>
 				<!-- Web Design -->
-				<div class="col-12 col-lg-4 my-5">
-					<h3 class="mb-3">Web Design</h3>
-					<p>I've learnt that, the user flow defines how content is grouped and displayed within a web page. We've worked with the Bootstrap grid for the layout in contrast to custom hover animations, in order to provide an enjoyable user experience.</p>
-					<p>The goal was to create a consistent design throughout the app, that allowed at the same time each page to stand out on its own.</p>
+				<h3 class="col-12 mb-3">Concept</h3>
+				<div class="col-12 col-lg-6">
+					<p>I was looking forward to create an app that would resemble the experience of drinking a cocktail.</p>
+					<p>For the background, i customized the JavaScript function availiable at <a href="https://github.com/tipsy/bubbly-bg">bubbly-bg</a>, to produce the same appearance as a gasified drink.</p>
+					<p>The cocktails should look like coasters, that one gets at a bar when ordering a drink. For this I've learned how to apply text to an svg path.</p>
 				</div>
-				<!-- Database seeding -->
-				<div class="col-12 col-lg-8 mb-5">
-					<img src="" class="img-fluid w-100 shadow-sm rounded" alt="">
+				<div class="col-12 col-lg-6">
+					<p>The search, filter and create features are concentrated and allways availiable on the top navigation bar. For orientation purposes, each color of the buttons matches a CRUD method.</p>
+					<p>I've also worked with the Bootstrap grid for the layout in contrast to custom hover animations, in order to provide an playful user experience.</p>
 				</div>
-				<div class="col-12 col-lg-4">
-					<h3 class="mb-3">Database seeding</h3>
-					<p>Some text</p>
-				</div>
-				<!-- Search and Filters -->
-				<div class="col-12 col-lg-8 mb-3">
-					<h3 class="mb-3">Search and Filters</h3>
-					<p>Some text</p>
-				</div>
-				<div class="col-12 mb-5">
-					<img src="" class="img-fluid w-100 shadow-sm rounded" alt="">
-				</div>
-				<div class="col-12 col-lg-4 my-5">
-					<img src="" class="img-fluid w-100 shadow-sm rounded" alt="">
-				</div>
-				<div class="col-12 col-lg-4 my-auto">
-					<img src="" class="img-fluid w-100 shadow-sm rounded mb-5" alt="">
-					<img src="" class="img-fluid w-100 shadow-sm rounded" alt="">
+			</div>
+			<!-- Next steps -->
+			<div class="row justify-content-center my-5">
+				<div class="col-12 col-lg-8 text-center">
+					<h2 class="mb-3">Next steps</h2>
+					<p>On the next step i'll be implementing a multi-column search with AJAX.</p>
 				</div>
 			</div>
 		</div>
