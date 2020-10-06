@@ -15,9 +15,45 @@ ul  li {
     list-style-type: none;
     opacity: 85%;
 }
-a {
+p a {
     color: inherit;
+    text-decoration: underline;
 }
 a:hover {
     color: inherit;
+}
+.project-img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: 0.5s;
+}
+/*
+.project-img:hover {
+    transform: scale(1.05);
+}
+*/
+.logo {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 1s;
+}
+.logo:hover {
+    background-color: black;
+    color: white !important;
+}
+.links {
+    display: inline;
+}
+.links a {
+    color: black;
+    opacity: 25%;
+    font-size: 30px;
+    margin-right: 10px;
+    transition: 1s;
+}
+.links a:hover {
+    opacity: 75%;
 }
