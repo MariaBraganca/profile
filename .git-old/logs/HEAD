@@ -1,0 +1,101 @@
+0000000000000000000000000000000000000000 5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 MariaBraganca <mcpbbraganca@gmail.com> 1596025456 +0200	commit (initial): my profile page
+5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 MariaBraganca <mcpbbraganca@gmail.com> 1596025888 +0200	checkout: moving from master to gh-pages
+5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 MariaBraganca <mcpbbraganca@gmail.com> 1601225383 +0200	checkout: moving from gh-pages to master
+5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 MariaBraganca <mcpbbraganca@gmail.com> 1601225399 +0200	checkout: moving from master to gh-pages
+5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 3c286680150c17d491d3c37521f21817fd1656cf MariaBraganca <mcpbbraganca@gmail.com> 1601225574 +0200	commit: layout
+3c286680150c17d491d3c37521f21817fd1656cf 5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 MariaBraganca <mcpbbraganca@gmail.com> 1601225698 +0200	checkout: moving from gh-pages to master
+5fcd013a2348c72ef02affdc5ad1511c3a50f4c7 43f815be5f1b19daac6473a4558fd7e83cd36906 MariaBraganca <mcpbbraganca@gmail.com> 1601225704 +0200	pull origin master: Fast-forward
+43f815be5f1b19daac6473a4558fd7e83cd36906 43f815be5f1b19daac6473a4558fd7e83cd36906 MariaBraganca <mcpbbraganca@gmail.com> 1601278404 +0200	checkout: moving from master to links
+43f815be5f1b19daac6473a4558fd7e83cd36906 2d66f1dfe0f545076cdb760e4db6cb7d2950673b MariaBraganca <mcpbbraganca@gmail.com> 1601278419 +0200	commit: added navbar and email link to index
+2d66f1dfe0f545076cdb760e4db6cb7d2950673b 43f815be5f1b19daac6473a4558fd7e83cd36906 MariaBraganca <mcpbbraganca@gmail.com> 1601278563 +0200	checkout: moving from links to master
+43f815be5f1b19daac6473a4558fd7e83cd36906 da118086470597646b361879a0e7e102ea9de148 MariaBraganca <mcpbbraganca@gmail.com> 1601278569 +0200	pull origin master: Fast-forward
+da118086470597646b361879a0e7e102ea9de148 3c286680150c17d491d3c37521f21817fd1656cf MariaBraganca <mcpbbraganca@gmail.com> 1601278672 +0200	checkout: moving from master to gh-pages
+3c286680150c17d491d3c37521f21817fd1656cf da118086470597646b361879a0e7e102ea9de148 MariaBraganca <mcpbbraganca@gmail.com> 1601278678 +0200	pull origin master: Fast-forward
+da118086470597646b361879a0e7e102ea9de148 da118086470597646b361879a0e7e102ea9de148 MariaBraganca <mcpbbraganca@gmail.com> 1601278832 +0200	checkout: moving from gh-pages to master
+da118086470597646b361879a0e7e102ea9de148 da118086470597646b361879a0e7e102ea9de148 MariaBraganca <mcpbbraganca@gmail.com> 1601288204 +0200	checkout: moving from master to ban-project
+da118086470597646b361879a0e7e102ea9de148 f9ef54641f03e5e761cec46376ea1c002d51a124 MariaBraganca <mcpbbraganca@gmail.com> 1601288224 +0200	commit: added summary and labels to ban project page
+f9ef54641f03e5e761cec46376ea1c002d51a124 da118086470597646b361879a0e7e102ea9de148 MariaBraganca <mcpbbraganca@gmail.com> 1601288305 +0200	checkout: moving from ban-project to master
+da118086470597646b361879a0e7e102ea9de148 4da204560a99002f5651a8c48dafe43a0af6bc27 MariaBraganca <mcpbbraganca@gmail.com> 1601288311 +0200	pull origin master: Fast-forward
+4da204560a99002f5651a8c48dafe43a0af6bc27 4da204560a99002f5651a8c48dafe43a0af6bc27 MariaBraganca <mcpbbraganca@gmail.com> 1601293158 +0200	checkout: moving from master to div-shadow
+4da204560a99002f5651a8c48dafe43a0af6bc27 68a4584b56412e092a294e0851f3b5c043d243e3 MariaBraganca <mcpbbraganca@gmail.com> 1601293191 +0200	commit: added image placeholders a shadow
+68a4584b56412e092a294e0851f3b5c043d243e3 4da204560a99002f5651a8c48dafe43a0af6bc27 MariaBraganca <mcpbbraganca@gmail.com> 1601293459 +0200	checkout: moving from div-shadow to master
+4da204560a99002f5651a8c48dafe43a0af6bc27 16cf42de5e254775b34c2ad8ca2a7c088cbdf657 MariaBraganca <mcpbbraganca@gmail.com> 1601293464 +0200	pull origin master: Fast-forward
+16cf42de5e254775b34c2ad8ca2a7c088cbdf657 16cf42de5e254775b34c2ad8ca2a7c088cbdf657 MariaBraganca <mcpbbraganca@gmail.com> 1601323106 +0200	checkout: moving from master to projects
+16cf42de5e254775b34c2ad8ca2a7c088cbdf657 d3f20da795c5d203f97d80095e9589779444a3ad MariaBraganca <mcpbbraganca@gmail.com> 1601323127 +0200	commit: added mr cocktail page
+d3f20da795c5d203f97d80095e9589779444a3ad 16cf42de5e254775b34c2ad8ca2a7c088cbdf657 MariaBraganca <mcpbbraganca@gmail.com> 1601325205 +0200	checkout: moving from projects to master
+16cf42de5e254775b34c2ad8ca2a7c088cbdf657 69011213594c1139042d11436404789f010e3c0f MariaBraganca <mcpbbraganca@gmail.com> 1601325210 +0200	pull origin master: Fast-forward
+69011213594c1139042d11436404789f010e3c0f 69011213594c1139042d11436404789f010e3c0f MariaBraganca <mcpbbraganca@gmail.com> 1601327597 +0200	checkout: moving from master to navbar
+69011213594c1139042d11436404789f010e3c0f 474cc3a584190107d1c6801d0607887d985f53a9 MariaBraganca <mcpbbraganca@gmail.com> 1601327638 +0200	commit: navabar is still not collapsing properly
+474cc3a584190107d1c6801d0607887d985f53a9 69011213594c1139042d11436404789f010e3c0f MariaBraganca <mcpbbraganca@gmail.com> 1601327686 +0200	checkout: moving from navbar to master
+69011213594c1139042d11436404789f010e3c0f f1e844ca2651d1f5451a2f56c2b0175cf5f853d2 MariaBraganca <mcpbbraganca@gmail.com> 1601327693 +0200	pull origin master: Fast-forward
+f1e844ca2651d1f5451a2f56c2b0175cf5f853d2 f1e844ca2651d1f5451a2f56c2b0175cf5f853d2 MariaBraganca <mcpbbraganca@gmail.com> 1601377272 +0200	checkout: moving from master to challenges
+f1e844ca2651d1f5451a2f56c2b0175cf5f853d2 19fa3afa695387a79c59363301a68b67c3d12c41 MariaBraganca <mcpbbraganca@gmail.com> 1601377304 +0200	commit: added database and design sections
+19fa3afa695387a79c59363301a68b67c3d12c41 f1e844ca2651d1f5451a2f56c2b0175cf5f853d2 MariaBraganca <mcpbbraganca@gmail.com> 1601377547 +0200	checkout: moving from challenges to master
+f1e844ca2651d1f5451a2f56c2b0175cf5f853d2 765112e5214c1eeeef829f48fa51d98c06a072e0 MariaBraganca <mcpbbraganca@gmail.com> 1601377554 +0200	pull origin master: Fast-forward
+765112e5214c1eeeef829f48fa51d98c06a072e0 765112e5214c1eeeef829f48fa51d98c06a072e0 MariaBraganca <mcpbbraganca@gmail.com> 1601392609 +0200	checkout: moving from master to ban-challenges
+765112e5214c1eeeef829f48fa51d98c06a072e0 2ac1e4bd0eb4f08f28b6fe223a97cb9db78fdafd MariaBraganca <mcpbbraganca@gmail.com> 1601392630 +0200	commit: finished challenges for ban page
+2ac1e4bd0eb4f08f28b6fe223a97cb9db78fdafd 765112e5214c1eeeef829f48fa51d98c06a072e0 MariaBraganca <mcpbbraganca@gmail.com> 1601392676 +0200	checkout: moving from ban-challenges to master
+765112e5214c1eeeef829f48fa51d98c06a072e0 e01eaee5ea1eed49171307feea97d9ecc1f458fd MariaBraganca <mcpbbraganca@gmail.com> 1601392682 +0200	pull origin master: Fast-forward
+e01eaee5ea1eed49171307feea97d9ecc1f458fd e01eaee5ea1eed49171307feea97d9ecc1f458fd MariaBraganca <mcpbbraganca@gmail.com> 1601448744 +0200	checkout: moving from master to typo
+e01eaee5ea1eed49171307feea97d9ecc1f458fd e01eaee5ea1eed49171307feea97d9ecc1f458fd MariaBraganca <mcpbbraganca@gmail.com> 1601448749 +0200	checkout: moving from typo to master
+e01eaee5ea1eed49171307feea97d9ecc1f458fd e01eaee5ea1eed49171307feea97d9ecc1f458fd MariaBraganca <mcpbbraganca@gmail.com> 1601448760 +0200	checkout: moving from master to typo
+e01eaee5ea1eed49171307feea97d9ecc1f458fd 29b8cf42eec35dbef8b4ce74f6ec4c14e06374dd MariaBraganca <mcpbbraganca@gmail.com> 1601448786 +0200	commit: small typo corrections
+29b8cf42eec35dbef8b4ce74f6ec4c14e06374dd e01eaee5ea1eed49171307feea97d9ecc1f458fd MariaBraganca <mcpbbraganca@gmail.com> 1601448880 +0200	checkout: moving from typo to master
+e01eaee5ea1eed49171307feea97d9ecc1f458fd 93c1497f341038c26638062476f6e5b48ed2ce3a MariaBraganca <mcpbbraganca@gmail.com> 1601448885 +0200	pull origin master: Fast-forward
+93c1497f341038c26638062476f6e5b48ed2ce3a 93c1497f341038c26638062476f6e5b48ed2ce3a MariaBraganca <mcpbbraganca@gmail.com> 1601502337 +0200	checkout: moving from master to ban-page
+93c1497f341038c26638062476f6e5b48ed2ce3a 93c1497f341038c26638062476f6e5b48ed2ce3a MariaBraganca <mcpbbraganca@gmail.com> 1601502345 +0200	checkout: moving from ban-page to master
+93c1497f341038c26638062476f6e5b48ed2ce3a 93c1497f341038c26638062476f6e5b48ed2ce3a MariaBraganca <mcpbbraganca@gmail.com> 1601502363 +0200	checkout: moving from master to ban-page
+93c1497f341038c26638062476f6e5b48ed2ce3a f229268f84c41080e56c0e2386c2c6891fb84b89 MariaBraganca <mcpbbraganca@gmail.com> 1601502382 +0200	commit: added github section and logo
+f229268f84c41080e56c0e2386c2c6891fb84b89 46457a43ad4bb275d6dfc3f1ef44f153c45d47de MariaBraganca <mcpbbraganca@gmail.com> 1601560842 +0200	commit: text correction
+46457a43ad4bb275d6dfc3f1ef44f153c45d47de 93c1497f341038c26638062476f6e5b48ed2ce3a MariaBraganca <mcpbbraganca@gmail.com> 1601566100 +0200	checkout: moving from ban-page to master
+93c1497f341038c26638062476f6e5b48ed2ce3a 0a1951b405b5ccbb82afde16de693ff72dc43c70 MariaBraganca <mcpbbraganca@gmail.com> 1601566109 +0200	pull origin master: Fast-forward
+0a1951b405b5ccbb82afde16de693ff72dc43c70 0a1951b405b5ccbb82afde16de693ff72dc43c70 MariaBraganca <mcpbbraganca@gmail.com> 1601573969 +0200	checkout: moving from master to ban-text
+0a1951b405b5ccbb82afde16de693ff72dc43c70 7c63cab27fb0a204b847dce9ea8ad0311e000d56 MariaBraganca <mcpbbraganca@gmail.com> 1601573986 +0200	commit: finished texts
+7c63cab27fb0a204b847dce9ea8ad0311e000d56 0a1951b405b5ccbb82afde16de693ff72dc43c70 MariaBraganca <mcpbbraganca@gmail.com> 1601574035 +0200	checkout: moving from ban-text to master
+0a1951b405b5ccbb82afde16de693ff72dc43c70 4e80c346f225eb9c22ef88a201f4a3792a4e1394 MariaBraganca <mcpbbraganca@gmail.com> 1601574046 +0200	pull origin master: Fast-forward
+4e80c346f225eb9c22ef88a201f4a3792a4e1394 4e80c346f225eb9c22ef88a201f4a3792a4e1394 MariaBraganca <mcpbbraganca@gmail.com> 1601589561 +0200	checkout: moving from master to ban-layout
+4e80c346f225eb9c22ef88a201f4a3792a4e1394 8da4caf15194eb233809a5c3bd1f9d30d73f5868 MariaBraganca <mcpbbraganca@gmail.com> 1601589578 +0200	commit: optimized layout
+8da4caf15194eb233809a5c3bd1f9d30d73f5868 4e80c346f225eb9c22ef88a201f4a3792a4e1394 MariaBraganca <mcpbbraganca@gmail.com> 1601589709 +0200	checkout: moving from ban-layout to master
+4e80c346f225eb9c22ef88a201f4a3792a4e1394 e7ad7eac89883c6dcd23ff70cbfd15c03ead3794 MariaBraganca <mcpbbraganca@gmail.com> 1601589716 +0200	pull origin master: Fast-forward
+e7ad7eac89883c6dcd23ff70cbfd15c03ead3794 e7ad7eac89883c6dcd23ff70cbfd15c03ead3794 MariaBraganca <mcpbbraganca@gmail.com> 1601757942 +0200	checkout: moving from master to ban-show
+e7ad7eac89883c6dcd23ff70cbfd15c03ead3794 f866c56f6465c74278905967764e6eaaf0e1aaca MariaBraganca <mcpbbraganca@gmail.com> 1601757959 +0200	commit: finished ban page
+f866c56f6465c74278905967764e6eaaf0e1aaca e7ad7eac89883c6dcd23ff70cbfd15c03ead3794 MariaBraganca <mcpbbraganca@gmail.com> 1601758169 +0200	checkout: moving from ban-show to master
+e7ad7eac89883c6dcd23ff70cbfd15c03ead3794 e78941226e81cac693d389aaf4b32f37c1da1ad9 MariaBraganca <mcpbbraganca@gmail.com> 1601758176 +0200	pull origin master: Fast-forward
+e78941226e81cac693d389aaf4b32f37c1da1ad9 e78941226e81cac693d389aaf4b32f37c1da1ad9 MariaBraganca <mcpbbraganca@gmail.com> 1601758276 +0200	checkout: moving from master to image-title
+e78941226e81cac693d389aaf4b32f37c1da1ad9 fe0bc281f8be8416136936d85353eff7c88c1657 MariaBraganca <mcpbbraganca@gmail.com> 1601758288 +0200	commit: corrected image titles
+fe0bc281f8be8416136936d85353eff7c88c1657 e78941226e81cac693d389aaf4b32f37c1da1ad9 MariaBraganca <mcpbbraganca@gmail.com> 1601758358 +0200	checkout: moving from image-title to master
+e78941226e81cac693d389aaf4b32f37c1da1ad9 e78941226e81cac693d389aaf4b32f37c1da1ad9 MariaBraganca <mcpbbraganca@gmail.com> 1601758395 +0200	checkout: moving from master to master
+e78941226e81cac693d389aaf4b32f37c1da1ad9 ec09dfbf1432b4b619f6affe2a8d671f263fef40 MariaBraganca <mcpbbraganca@gmail.com> 1601758401 +0200	pull origin master: Fast-forward
+ec09dfbf1432b4b619f6affe2a8d671f263fef40 ec09dfbf1432b4b619f6affe2a8d671f263fef40 MariaBraganca <mcpbbraganca@gmail.com> 1601830359 +0200	checkout: moving from master to images
+ec09dfbf1432b4b619f6affe2a8d671f263fef40 cb970348f36cd6a7f8a8afb040b84c123f09ee88 MariaBraganca <mcpbbraganca@gmail.com> 1601830373 +0200	commit: images on cloudinary
+cb970348f36cd6a7f8a8afb040b84c123f09ee88 ec09dfbf1432b4b619f6affe2a8d671f263fef40 MariaBraganca <mcpbbraganca@gmail.com> 1601830451 +0200	checkout: moving from images to master
+ec09dfbf1432b4b619f6affe2a8d671f263fef40 e55d9cbbcaec2188f15d1447b61d3abbc668100e MariaBraganca <mcpbbraganca@gmail.com> 1601830460 +0200	pull origin master: Fast-forward
+e55d9cbbcaec2188f15d1447b61d3abbc668100e e55d9cbbcaec2188f15d1447b61d3abbc668100e MariaBraganca <mcpbbraganca@gmail.com> 1601845273 +0200	checkout: moving from master to cocktail-goal
+e55d9cbbcaec2188f15d1447b61d3abbc668100e 6c6b2b1962135f1128bf93171d26bb9b58f78ab6 MariaBraganca <mcpbbraganca@gmail.com> 1601845290 +0200	commit: added cocktail goal
+6c6b2b1962135f1128bf93171d26bb9b58f78ab6 e55d9cbbcaec2188f15d1447b61d3abbc668100e MariaBraganca <mcpbbraganca@gmail.com> 1601845363 +0200	checkout: moving from cocktail-goal to master
+e55d9cbbcaec2188f15d1447b61d3abbc668100e 1facfcb75acc89b7a89ecf9f2b8e4b0fe6ac959b MariaBraganca <mcpbbraganca@gmail.com> 1601845368 +0200	pull origin master: Fast-forward
+1facfcb75acc89b7a89ecf9f2b8e4b0fe6ac959b 1facfcb75acc89b7a89ecf9f2b8e4b0fe6ac959b MariaBraganca <mcpbbraganca@gmail.com> 1601890743 +0200	checkout: moving from master to cocktail-show
+1facfcb75acc89b7a89ecf9f2b8e4b0fe6ac959b 4823756f32161da74d791d892a9ae144fd2089e2 MariaBraganca <mcpbbraganca@gmail.com> 1601890766 +0200	commit: finished text for cocktail
+4823756f32161da74d791d892a9ae144fd2089e2 1facfcb75acc89b7a89ecf9f2b8e4b0fe6ac959b MariaBraganca <mcpbbraganca@gmail.com> 1601890937 +0200	checkout: moving from cocktail-show to master
+1facfcb75acc89b7a89ecf9f2b8e4b0fe6ac959b a1ac0692c69e167ebacb82831571b611e95cc18b MariaBraganca <mcpbbraganca@gmail.com> 1601890942 +0200	pull origin master: Fast-forward
+a1ac0692c69e167ebacb82831571b611e95cc18b a1ac0692c69e167ebacb82831571b611e95cc18b MariaBraganca <mcpbbraganca@gmail.com> 1601892668 +0200	checkout: moving from master to projects
+a1ac0692c69e167ebacb82831571b611e95cc18b a1ac0692c69e167ebacb82831571b611e95cc18b MariaBraganca <mcpbbraganca@gmail.com> 1601892674 +0200	checkout: moving from projects to master
+a1ac0692c69e167ebacb82831571b611e95cc18b a1ac0692c69e167ebacb82831571b611e95cc18b MariaBraganca <mcpbbraganca@gmail.com> 1601892683 +0200	checkout: moving from master to projects
+a1ac0692c69e167ebacb82831571b611e95cc18b 04b771c3fea660f6d01823aa38b9602dd66be075 MariaBraganca <mcpbbraganca@gmail.com> 1601892786 +0200	commit: finished projects layout
+04b771c3fea660f6d01823aa38b9602dd66be075 a1ac0692c69e167ebacb82831571b611e95cc18b MariaBraganca <mcpbbraganca@gmail.com> 1601892836 +0200	checkout: moving from projects to master
+a1ac0692c69e167ebacb82831571b611e95cc18b 5f2f664cc372d8345d39df7a8a0de757b06e10f0 MariaBraganca <mcpbbraganca@gmail.com> 1601892842 +0200	pull origin master: Fast-forward
+5f2f664cc372d8345d39df7a8a0de757b06e10f0 5f2f664cc372d8345d39df7a8a0de757b06e10f0 MariaBraganca <mcpbbraganca@gmail.com> 1601894673 +0200	checkout: moving from master to ban-office-img
+5f2f664cc372d8345d39df7a8a0de757b06e10f0 9901d2785ed4a5dcc48b88a4eb550e9dce5e2045 MariaBraganca <mcpbbraganca@gmail.com> 1601894687 +0200	commit: updated office image
+9901d2785ed4a5dcc48b88a4eb550e9dce5e2045 244b48c0288046d8c0b08f4ee0a97a50ff74126e MariaBraganca <mcpbbraganca@gmail.com> 1601895230 +0200	commit: deleted images and css folders
+244b48c0288046d8c0b08f4ee0a97a50ff74126e 5f2f664cc372d8345d39df7a8a0de757b06e10f0 MariaBraganca <mcpbbraganca@gmail.com> 1601895339 +0200	checkout: moving from ban-office-img to master
+5f2f664cc372d8345d39df7a8a0de757b06e10f0 af9facd9020a61e9aa64a6aef8d732d55782be47 MariaBraganca <mcpbbraganca@gmail.com> 1601895348 +0200	pull origin master: Fast-forward
+af9facd9020a61e9aa64a6aef8d732d55782be47 af9facd9020a61e9aa64a6aef8d732d55782be47 MariaBraganca <mcpbbraganca@gmail.com> 1601896356 +0200	checkout: moving from master to team-img
+af9facd9020a61e9aa64a6aef8d732d55782be47 fb78fef650d3cc40fb9ce1e975513430cf00f2f5 MariaBraganca <mcpbbraganca@gmail.com> 1601896366 +0200	commit: update team image
+fb78fef650d3cc40fb9ce1e975513430cf00f2f5 af9facd9020a61e9aa64a6aef8d732d55782be47 MariaBraganca <mcpbbraganca@gmail.com> 1601896464 +0200	checkout: moving from team-img to master
+af9facd9020a61e9aa64a6aef8d732d55782be47 74f432ca61663251e3aed93b54f613fcd1345162 MariaBraganca <mcpbbraganca@gmail.com> 1601896470 +0200	pull origin master: Fast-forward
+74f432ca61663251e3aed93b54f613fcd1345162 fb78fef650d3cc40fb9ce1e975513430cf00f2f5 MariaBraganca <mcpbbraganca@gmail.com> 1601897105 +0200	checkout: moving from master to team-img
+fb78fef650d3cc40fb9ce1e975513430cf00f2f5 0bebea105f9bd0fc71a37ba43dc777998cd307c3 MariaBraganca <mcpbbraganca@gmail.com> 1601897118 +0200	commit: smaller image size
+0bebea105f9bd0fc71a37ba43dc777998cd307c3 74f432ca61663251e3aed93b54f613fcd1345162 MariaBraganca <mcpbbraganca@gmail.com> 1601897233 +0200	checkout: moving from team-img to master
+74f432ca61663251e3aed93b54f613fcd1345162 9ee8c54d95e96d84e27d1142c20016fb12a25897 MariaBraganca <mcpbbraganca@gmail.com> 1601897243 +0200	pull origin master: Fast-forward
+9ee8c54d95e96d84e27d1142c20016fb12a25897 9ee8c54d95e96d84e27d1142c20016fb12a25897 MariaBraganca <mcpbbraganca@gmail.com> 1601982388 +0200	checkout: moving from master to index
+9ee8c54d95e96d84e27d1142c20016fb12a25897 968e060d32905af674cef9ed9b2f57694b95e226 MariaBraganca <mcpbbraganca@gmail.com> 1601982402 +0200	commit: updated index page
