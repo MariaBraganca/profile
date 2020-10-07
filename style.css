@@ -18,7 +18,7 @@ ul  li {
 }
 p a {
     color: inherit;
-    background-color: lightgray;
+    background-color: #e9ecef;
     transition: 0.5s;
 }
 p a:hover {
@@ -59,14 +59,13 @@ a:hover {
     display: inline;
 }
 .links a {
-    color: black;
-    opacity: 25%;
+    color:  #ced4da;
     font-size: 30px;
     margin-right: 10px;
     transition: 1s;
 }
 .links a:hover {
-    opacity: 75%;
+    color: black;
 }
 /* CSS Project Images */
 .project-img {
