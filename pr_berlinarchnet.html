@@ -15,15 +15,19 @@
 	</head>
 	<body>
 	<!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand font-weight-bold logo" href="index.html">MB</a>
     </nav>
 		<!-- Content  -->
 		<div class="container mx-auto min-vh-100">
 			<!-- Summary -->
-			<div class="row mb-5" id="ban-summary">
+			<div class="row my-spacing" id="ban-summary">
 				<div class="col-12 mb-3">
-					<h1>Berlin Architectural Network</h1>
+					<h1>BAN - Berlin Architectural Network</h1>
+					<ul>
+						<li class="links mb-5"><a href="https://github.com/MariaBraganca/ban-berlinarchnet" target="_blank"><i class="fab fa-github"></i></a></li>
+						<li class="links mb-5"><a href="https://www.linkedin.com/in/mariabraganca/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					</ul>
 				</div>
 				<div class="col-12 col-lg-9">
 					<p>Berlin Architectural Network is a Ruby on Rails Application built for the homonymous <a href="https://www.meetup.com/BAN-Berlin-Architectural-Network/" title="Link to BAN Meetup group">Meetup group</a>, which I've created in 2017. Since then, it has attracted hundreds of architecture lovers who come together to support each other through collaboration and networked learning.</p>
@@ -36,7 +40,7 @@
 				</div>
 			</div>
 			<!-- Labels -->
-			<div class="row my-5" id="ban-labels">
+			<div class="row my-spacing" id="ban-labels">
 				<div class="col-12 col-lg-3">
 					<h6>Role</h6>
 					<ul>
@@ -82,17 +86,17 @@
 				</div>
 			</div>
 			<!-- Goal -->
-			<div class="row mt-5 mb-3" id="ban-goal">
+			<div class="row my-spacing mb-3" id="ban-goal">
 				<div class="col-12 mb-3">
 					<h2>Goal and Process</h2>
 				</div>
 				<div class="col-12 col-lg-8">
-					<p>The purpose of this project is to support architects, who are new to Berlin, on getting into the city's architecture scene and give the <a href="https://www.meetup.com/BAN-Berlin-Architectural-Network/" title="Link to BAN Meetup group">Meetup group</a> an online presence.</p>
+					<p>The purpose of this project is to support architects, who are new to Berlin, on getting into the city's architecture scene and give the Meetup group an online presence.</p>
 					<p>The design process had 3 major phases:</p>
 				</div>
 			</div>
 			<!-- Process -->
-			<div class="row mb-5" id="ban-process">
+			<div class="row my-spacing" id="ban-process">
 				<div class="col-12 col-lg-4">
 					<h6>Phase 1 - Sign up</h6> 
 					<p>After defining each step of the user journey along with a Figma prototype, we designed the database schema and built the corresponding models on Rails. At this point we introduced <span class="font-italic">Devise</span> for authentication and <span class="font-italic">Pundit</span> for authorization, so that the user could sign up and become a member of the community. </p>
@@ -107,7 +111,7 @@
 				</div>
 			</div>
 			<!-- Gallery -->
-			<div class="row my-5" id="gallery" data-toggle="modal" data-target="#exampleModal">
+			<div class="row my-spacing" id="gallery" data-toggle="modal" data-target="#exampleModal">
 				<div class="col-12 col-lg-6 my-auto">
 					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601894110/profile/ban-office-show.jpg" class="img-fluid w-100 shadow rounded mb-3" data-target="#carouselExample" data-slide-to="0" alt="Image of BAN Office">
 				</div>
@@ -157,7 +161,7 @@
 				</div>
 			</div>
 			<!-- Web Stack -->
-			<div class="row my-5 justify-content-between" id="ban-stack">
+			<div class="row my-spacing justify-content-between" id="ban-stack">
 				<div class="col-12 mb-3">
 					<h2>Web Stack</h2>
 				</div>
@@ -172,7 +176,7 @@
 				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="col-4 col-lg-1 mb-3" style="fill: #430098"><title>Heroku icon</title><path d="M20.61 0H3.39C2.189 0 1.23.96 1.23 2.16v19.681c0 1.198.959 2.159 2.16 2.159h17.22c1.2 0 2.159-.961 2.159-2.159V2.16C22.77.96 21.811 0 20.61 0zm.96 21.841c0 .539-.421.96-.96.96H3.39c-.54 0-.96-.421-.96-.96V2.16c0-.54.42-.961.96-.961h17.22c.539 0 .96.421.96.961v19.681zM6.63 20.399L9.33 18l-2.7-2.4v4.799zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08-1.621 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52zM13.17 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841 2.64-1.801 3.9z"/></svg>
 			</div>
 			<!-- Challenges and solutions -->
-			<div class="row my-5" id="ban-images">
+			<div class="row my-spacing" id="ban-images">
 				<div class="col-12 text-center mb-3">
 					<h2>Challenges and solutions</h2>
 					<p>The process was not always smooth and we had some bumps on the way that helped us grow as junior developers.</p>
@@ -201,15 +205,26 @@
 				</div>
 			</div>
 			<!-- Next steps -->
-			<div class="row justify-content-center my-5">
+			<div class="row justify-content-center my-spacing">
 				<div class="col-12 col-lg-8 text-center">
 					<h2 class="mb-3">Next steps</h2>
 					<p>At the moment we're still working on the app. <br>It's release and announcement to the Meetup group is scheduled for January 2021.</p>
 				</div>
 			</div>
+			<!-- Arrows -->
+			<div class="row my-spacing">
+				<a href="#top" class="col-4 offset-4 text-center arrow"><i class="fas fa-arrow-up"></i></a>
+				<a href="pr_mrcocktail.html" class="col-4 text-right arrow"><i class="fas fa-arrow-right"></i></a>
+			</div>
 		</div>
 		<!-- Footer  -->
-		<footer></footer>
+		<footer>
+			<a class="navbar-brand font-weight-bold logo" href="index.html">MB</a>
+			<div>
+				<a href="https://github.com/MariaBraganca/" class="mr-3" target="_blank">Github</a>
+				<a href="https://www.linkedin.com/in/mariabraganca/" class="mr-3" target="_blank">Linkedin</a>
+			</div>
+		</footer>
 		<!-- Bootstrap  -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
