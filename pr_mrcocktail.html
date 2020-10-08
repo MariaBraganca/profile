@@ -15,15 +15,19 @@
 	</head>
 	<body>
 		<!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand font-weight-bold logo" href="index.html">MB</a>
     </nav>
 		<!-- Content  -->
 		<div class="container mx-auto min-vh-100">
 			<!-- Summary -->
-			<div class="row" id="cocktail-summary">
+			<div class="row my-spacing" id="cocktail-summary">
 				<div class="col-12 mb-3">
-					<h1 class="font-weight-bold">Mister Cocktail</h1>
+					<h1 class="font-weight-bold"><i class="fas fa-cocktail"></i> Mister Cocktail</h1>
+					<ul>
+						<li class="links mb-5"><a href="https://github.com/MariaBraganca/rails-mister-cocktail" target="_blank"><i class="fab fa-github"></i></a></li>
+						<li class="links mb-5"><a href="https://www.linkedin.com/in/mariabraganca/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					</ul>
 				</div>
 				<div class="col-12 col-lg-9">
 					<p>Mister Cocktail is a Ruby on Rails Application for all cocktail lovers around the world!</p>
@@ -33,7 +37,7 @@
 				</div>
 			</div>
 			<!-- Labels -->
-			<div class="row my-5" id="cocktail-labels">
+			<div class="row my-spacing" id="cocktail-labels">
 				<div class="col-12 col-lg-3 mb-3">
 					<h6>Role</h6>
 					<ul>
@@ -64,13 +68,13 @@
 				</div>
 			</div>
 			<!-- Homepage -->
-			<div class="row">
+			<div class="row my-spacing">
 				<div class="col-12">
 					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1601828728/profile/cocktail-homepage.jpg" class="img-fluid w-100 shadow rounded" alt="Image of Cocktail's Homepage">
 				</div>
 			</div>
 			<!-- Goal -->
-			<div class="row mt-5 mb-3" id="cocktail-goal">
+			<div class="row my-spacing" id="cocktail-goal">
 				<div class="col-12 mb-3">
 					<h2>Goal and Process</h2>
 				</div>
@@ -79,10 +83,10 @@
 				</div>
 			</div>
 			<!-- Process -->
-			<div class="row mb-5" id="cocktail-process">
+			<div class="row my-spacing" id="cocktail-process">
 				<div class="col-12 col-lg-4">
 					<h6>Phase 1 - Search</h6> 
-					<p>For the database seeding, i parsed data from the test API key availiable at <a href="https://www.thecocktaildb.com/api.php">the cocktail db</a>. Furthermore, I used <span class="font-italic">PG Search</span> to allow the user to search for a specific cocktail or ingredient.</p>
+					<p>For the database seeding, i parsed data from the test API key availiable at <a href="https://www.thecocktaildb.com/api.php" target="_blank">the cocktail db</a>. Furthermore, I used <span class="font-italic">PG Search</span> to allow the user to search for a specific cocktail or ingredient.</p>
 				</div>
 				<div class="col-12 col-lg-4">
 					<h6>Phase 2 - Filter</h6>
@@ -94,7 +98,7 @@
 				</div>
 			</div>
 			<!-- Gallery -->
-			<div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+			<div class="row my-spacing" id="gallery" data-toggle="modal" data-target="#exampleModal">
 				<div class="col-12">
 					<img src="https://res.cloudinary.com/db5jh0zwo/image/upload/v1602056057/profile/cocktail-show.jpg" class="img-fluid w-100 shadow rounded mb-3" data-target="#carouselExample" data-slide-to="0" alt="Image of Cocktail show page">
 				</div>
@@ -146,7 +150,7 @@
 				</div>
 			</div>
 			<!-- Challenges and solutions-->
-			<div class="row my-5" id="cocktail-challenges">
+			<div class="row my-spacing" id="cocktail-challenges">
 				<div class="col-12 mt-5 text-center mb-5">
 					<h2>Challenges and solving process</h2>
 				</div>
@@ -154,7 +158,7 @@
 				<h6 class="col-12 mb-3">Web design concept</h3>
 				<div class="col-12 col-lg-6">
 					<p>I was looking forward to creating an app that would resemble the experience of drinking a cocktail.</p>
-					<p>For the background, I customized the JavaScript function available at <a href="https://github.com/tipsy/bubbly-bg">bubbly-bg</a>, to reproduce the appearance of a gasified drink.</p>
+					<p>For the background, I customized the JavaScript function available at <a href="https://github.com/tipsy/bubbly-bg" target="_blank">bubbly-bg</a>, to reproduce the appearance of a gasified drink.</p>
 					<p>The cocktails should look like coasters, that one gets at a bar when ordering a drink. For this I've learned how to apply text to an svg path.</p>
 				</div>
 				<div class="col-12 col-lg-6">
@@ -163,15 +167,26 @@
 				</div>
 			</div>
 			<!-- Next steps -->
-			<div class="row justify-content-center my-5">
+			<div class="row justify-content-center my-spacing">
 				<div class="col-12 col-lg-8 text-center">
 					<h2 class="mb-3">Next steps</h2>
 					<p>On the next step I'll be implementing a multi-column search with AJAX.</p>
 				</div>
 			</div>
+			<!-- Arrows -->
+			<div class="row my-spacing">
+				<a href="pr_berlinarchnet.html" class="col-4 arrow"><i class="fas fa-arrow-left"></i></a>
+				<a href="#top" class="col-4 text-center arrow"><i class="fas fa-arrow-up"></i></a>
+			</div>
 		</div>
 		<!-- Footer  -->
-		<footer></footer>
+		<footer>
+			<a class="navbar-brand font-weight-bold logo" href="index.html">MB</a>
+			<div>
+				<a href="https://github.com/MariaBraganca/" class="mr-3" target="_blank">Github</a>
+				<a href="https://www.linkedin.com/in/mariabraganca/" class="mr-3" target="_blank">Linkedin</a>
+			</div>
+		</footer>
 		<!-- Bootstrap  -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
