@@ -22,7 +22,7 @@ p a {
 }
 p a:hover {
     color: inherit;
-    background-color: yellow;
+    background-color:#e0ff4f;
 }
 a {
     color: inherit;
@@ -55,19 +55,19 @@ footer {
 .btn-view {
     display: inline-block;
     border-bottom: 2px solid black;
-    font-weight: 700;
     padding-bottom: 4px;
+    font-weight: 700;
     opacity: 100;
     transition: 0.5s;
 }
 .btn-view:hover {
-    background-color: yellow;
+    background-color: #e0ff4f;
 }
 .project:hover > .project-img {
     transform: scale(1.03);
 }
 .project:hover > .btn-view {
-    background-color: yellow;
+    background-color: #e0ff4f;
 }
 /* CSS Links */
 .links {
